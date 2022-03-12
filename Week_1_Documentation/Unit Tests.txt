@@ -1,0 +1,8 @@
+Test 1: Physics Test Valid Data(NotRun)
+
+Check whether the physics engine can emulate real-life physics using different input variables such as speed, mass
+etc that are valid. The test should produce output values that approximate real life physics expectations.
+
+Test 2: Physics Test Invalid Data (NotRun)
+Check whether the physics engine can create an exception if the one or more input variables is invalid. 
+For example (mass = 0kg) 

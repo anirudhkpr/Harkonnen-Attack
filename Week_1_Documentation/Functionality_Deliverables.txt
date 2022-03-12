@@ -1,0 +1,4 @@
+This week I did the project planning, created my task diagram. 
+Got TAs to review project plan. Remade the task diagram using feedback from TAs.
+Identified risks that are apparent at this stage.
+Completed documentation and identified unit testing points.

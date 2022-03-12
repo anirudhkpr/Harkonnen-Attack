@@ -1,0 +1,22 @@
+Not Yet Complete:
+Planning After Feedback
+Physics Model
+Object Data Structure
+Button ISR
+ButtonManagement Task
+Configuration Data/ Initialization Code
+Rendering Engine Task
+Slider Input Task
+Completed:
+
+Task Diagram:
+
+Initial Planning:
+Created a plan to program the game tasks. Discussed with TAs to get more insight into best practices and pragmatic
+approaches to challenges. Created the first version of documentation.
+
+Task Diagram:
+
+Created a task diagram. After Review the orignal diagram was redone to reflect TA input. Time spent exceeded initial
+estimates because of multiple revisions to my designs. This additional time spent at this stage will help
+future efforts so I'm glad I did these revisions.
