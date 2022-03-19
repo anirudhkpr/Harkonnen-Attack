@@ -1,0 +1,23 @@
+Not Yet Complete:
+Physics Model
+Object Data Structure
+Button ISR
+Configuration Data/ Initialization Code
+Rendering Engine Task
+Slider Input Task
+Completed:
+
+Task Diagram
+
+Remade the task diagram to simplify design and make design changes to get closer to expected requirements.
+
+Planning After Feedback
+
+After discussion, I realized that a lot of changes need to be made. I rescoped, drew the diagram again and
+clarified a lot of doubts regarding the project.
+
+ButtonManagement Task
+
+Removed ButtonManagement Task
+
+
