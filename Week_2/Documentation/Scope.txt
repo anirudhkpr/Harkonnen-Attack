@@ -1,11 +1,31 @@
 Not Yet Complete:
+Unit Tests Implementation
 Physics Model
 Object Data Structure
 Button ISR
 Configuration Data/ Initialization Code
 Rendering Engine Task
-Slider Input Task
+
 Completed:
+
+Unit Tests Identification
+
+Identified 10 unit tests
+
+Reading
+
+After the realization that I had made a few mistakes in the first week of the project. I reread the documentation
+given in the first week to get a better grasp.	
+
+Redoing documentation
+
+It seems I initially made a few mistakes in my documentation. It wasn't clear to me in the first week how to create
+proper estimations because I did not understand the project completely. I will have to spend time making
+corrections to last weeks documentations.
+
+Slider Input Task
+
+Using the Lab 7 project as a base allows for existing slider input task to be used.
 
 Task Diagram
 
