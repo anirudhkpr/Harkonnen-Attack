@@ -1,40 +1,41 @@
 Not Yet Complete:
-Unit Tests Implementation
-Physics Model
-Object Data Structure
-Button ISR
-Configuration Data/ Initialization Code
-Rendering Engine Task
+Unit Tests Implementation			3 Hours
+Physics Model					2 Hours
+Object Data Structure				1 Hours
+Button ISR					1 Hours
+Configuration Data/ Initialization Code		2 Hours
+Rendering Engine Task				1 Hours
 
 Completed:
 
-Unit Tests Identification
+Planning After Feedback				3 Hours
 
-Identified 10 unit tests
+After discussion, I realized that a lot of changes need to be made. I rescoped, drew the diagram again and
+clarified a lot of doubts regarding the project.
 
-Reading
+Unit Tests Identification			1 Hour
+
+Identified 10 unit tests			
+
+Reading						1 Hour
 
 After the realization that I had made a few mistakes in the first week of the project. I reread the documentation
 given in the first week to get a better grasp.	
 
-Redoing documentation
+Redoing documentation				2 Hours
 
 It seems I initially made a few mistakes in my documentation. It wasn't clear to me in the first week how to create
 proper estimations because I did not understand the project completely. I will have to spend time making
 corrections to last weeks documentations.
 
-Slider Input Task
+Slider Input Task				0 Hours
 
 Using the Lab 7 project as a base allows for existing slider input task to be used.
 
-Task Diagram
+Task Diagram					0.5 Hours
 
 Remade the task diagram to simplify design and make design changes to get closer to expected requirements.
 
-Planning After Feedback
-
-After discussion, I realized that a lot of changes need to be made. I rescoped, drew the diagram again and
-clarified a lot of doubts regarding the project.
 
 ButtonManagement Task
 
