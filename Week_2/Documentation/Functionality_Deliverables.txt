@@ -1,0 +1,7 @@
+This week I did the project planning again.
+Read the documentation for clarity.
+Recreated my task diagram. 
+Got more input to create design changes.
+Improved my documentation.
+Worked on two risks.
+identified unit testing points.
