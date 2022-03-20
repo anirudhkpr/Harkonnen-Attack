@@ -40,9 +40,41 @@ True, Shield Velocity, Shield Position otherwise.
 Test 4: Constant Acceleration Test [NotRun]
 Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
 True, Shield Velocity, Shield Position otherwise.
-1. Place shield Position at 0. Select Acceleration between 1 and screen distance
+1. Place shield Position at 0. Select Acceleration between 1 and screen distance.
 2. Select values of velocity from 0 to screen distance + 100. 
-3. Initialize count variable. Initialize temp variable with a value of .
+3. Initialize count variable. Initialize temp variable with a value of calculated time frames with kinematic equations.
 4. Increment count then run simulation until the simulation returns false.
 5. Check temp matches the count variable
-6. Go to step 1 and select next value until all values are tested
+6. Go to step 1 and select next value until all value combinations are tested
+
+Collision Test
+
+Test 1:No Collision occurs (Within screen)Test [NotRun]
+Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
+1. Put shield and mass in a non colliding positions within the screen
+2. Pass the values to test collision
+3. Check that False is returned
+4. Repeat from step 1 until all positions are exhausted
+
+
+Test 2:No Collision occurs (outside screen and not colliding conditions) Test [NotRun]
+Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
+1. Put shield and mass in a non colliding positions outside the screen
+2. Pass the values to test collision
+3. Check that False is returned
+4. Repeat from step 1 until all positions are exhausted
+
+
+Test 3:No Collision occurs (outside screen and colliding conditions) Test [NotRun]
+Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
+1. Put shield and mass in a colliding conditions outside the screen
+2. Pass the values to test collision
+3. Check that False is returned
+4. Repeat from step 1 until all positions are exhausted
+
+Test 4: Collision occurs Test [NotRun]
+Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
+1. Put shield and mass in a colliding conditions inside the screen
+2. Pass the values to test collision
+3. Check that True is returned
+4. Repeat from step 1 until all positions are exhausted
