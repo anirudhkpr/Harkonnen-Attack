@@ -1,11 +1,11 @@
 Point 1: Mass Movement Functionality
 
-Test 1: Out of Bounds Test [NotRun]
+Test 1: Out of Bounds Test [Passed]
 Inputs: Mass Position(X,Y), Mass Velocity(X,Y) Output: False if terminated. True and Mass Position(X,Y).
 1. Place mass in a region y >= 128
 2. Ensure that the simulation terminates immediately with False return value
 
-Test 2: Velocity Test [NotRun]
+Test 2: Velocity Test [Passed]
 Inputs: Mass Position(X,Y), Mass Velocity(X,Y) Output: False if terminated. True and Mass Position(X,Y).
 1. Select values of velocity Y from 0 to 128
 2. Initialize count variable. Initialize temp variable with a value of screen distance Y axis/ Mass Velocity(Y).

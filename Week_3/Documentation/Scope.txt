@@ -1,13 +1,15 @@
 Not Yet Complete:
-Unit Tests Implementation			3 Hours
-Physics Model					2 Hours
+
+Physics Model					1.5 Hours
 Object Data Structure				1 Hours
 Button ISR					1 Hours
 Configuration Data/ Initialization Code		2 Hours
 Rendering Engine Task				1 Hours
 
 Completed:
+Unit Tests Implementation			3 Hours
+Wrote unit tests according to plan
 
-
-
+Physics Model					0.5 Hours
+Wrote the functionality for mass step simulation
 

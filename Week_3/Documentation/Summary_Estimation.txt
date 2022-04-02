@@ -1,7 +1,6 @@
-I have completed 42% of my scoped work(7.5 / 17.5) in 66% of the estimated time (5/7.5 hours spent) for said work.
-My work took shorter than expected. It took me 0.66x expected time (5/ 7.5 hours).
+I have completed 57% of my scoped work(10 / 17.5) in 66% of the estimated time (2.5/2.5 hours spent) for said work.
+My work took about as long as expected.
 
-Note that the time estimation has changed so I have to give out fresh numbers. Moreover I did not forsee design 
-changes. I think there might be one more
-revision. In any case, I will contact the instruction team to ensure that I can also get help in estimation as
-I am still a bit confused how  these are calculated.
+Note that even though I made suffecient progress, ideally, I should be slightly ahead of schedule
+to get additional time if needed later on. This week was a bit more difficult to work in because of new medication
+side effects.
