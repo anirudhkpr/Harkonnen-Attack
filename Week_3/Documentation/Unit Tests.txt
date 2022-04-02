@@ -18,13 +18,13 @@ Point 2: Shield Movement Functionality
 Test 1: Out of Bounds Test X axis-1 [NotRun]
 Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
 True, Shield Velocity, Shield Position otherwise.
-1. Pass shield Postion in a region X < 0
+1. Pass shield Postion in a region X < 3 (whatever the shield size will be set)
 2. Ensure that the simulation terminates immediately with False return values
 
 Test 2: Out of Bounds Test X axis-2 [NotRun]
 Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
 True, Shield Velocity, Shield Position otherwise.
-1. Place shield position in a region X > Screen Distance X
+1. Place shield position in a region X > 127
 2. Ensure that the simulation terminates immediately with False return value
 
 Test 3: Constant Velocity Test [NotRun]

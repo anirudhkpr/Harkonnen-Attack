@@ -1,1 +1,4 @@
 This week I completed writing my Unit tests and wrote functionality for mass stepping in physics engine.
+
+To check test results, debug and pause after running to reach the forever running while loop in tests.
+Look at the flag.
