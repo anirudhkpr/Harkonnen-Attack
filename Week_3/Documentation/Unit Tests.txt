@@ -1,0 +1,80 @@
+Point 1: Mass Movement Functionality
+
+Test 1: Out of Bounds Test [NotRun]
+Inputs: Mass Position(X,Y), Mass Velocity(X,Y) Output: False if terminated. True and Mass Position(X,Y).
+1. Place mass in a region y >= 128
+2. Ensure that the simulation terminates immediately with False return value
+
+Test 2: Velocity Test [NotRun]
+Inputs: Mass Position(X,Y), Mass Velocity(X,Y) Output: False if terminated. True and Mass Position(X,Y).
+1. Select values of velocity Y from 0 to 128
+2. Initialize count variable. Initialize temp variable with a value of screen distance Y axis/ Mass Velocity(Y).
+3. Increment count then run simulation until the simulation returns false.
+4. Check temp matches the count variable
+5. Go to step 1 and select next value until all values are tested
+
+Point 2: Shield Movement Functionality
+
+Test 1: Out of Bounds Test X axis-1 [NotRun]
+Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
+True, Shield Velocity, Shield Position otherwise.
+1. Pass shield Postion in a region X < 0
+2. Ensure that the simulation terminates immediately with False return values
+
+Test 2: Out of Bounds Test X axis-2 [NotRun]
+Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
+True, Shield Velocity, Shield Position otherwise.
+1. Place shield position in a region X > Screen Distance X
+2. Ensure that the simulation terminates immediately with False return value
+
+Test 3: Constant Velocity Test [NotRun]
+Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
+True, Shield Velocity, Shield Position otherwise.
+1. Place shield Position at 0 
+2. Select values of velocity from 0 to screen distance + 100. Select Shield Acceleration as 0.
+3. Initialize count variable. Initialize temp variable with a value of screen distance / Shield Velocity.
+4. Increment count then run simulation until the simulation returns false.
+5. Check temp matches the count variable
+6. Go to step 1 and select next value until all values are tested
+
+Test 4: Constant Acceleration Test [NotRun]
+Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
+True, Shield Velocity, Shield Position otherwise.
+1. Place shield Position at 0. Select Acceleration between 1 and screen distance.
+2. Select values of velocity from 0 to screen distance + 100. 
+3. Initialize count variable. Initialize temp variable with a value of calculated time frames with kinematic equations.
+4. Increment count then run simulation until the simulation returns false.
+5. Check temp matches the count variable
+6. Go to step 1 and select next value until all value combinations are tested
+
+Collision Test
+
+Test 1:No Collision occurs (Within screen)Test [NotRun]
+Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
+1. Put shield and mass in a non colliding positions within the screen
+2. Pass the values to test collision
+3. Check that False is returned
+4. Repeat from step 1 until all positions are exhausted
+
+
+Test 2:No Collision occurs (outside screen and not colliding conditions) Test [NotRun]
+Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
+1. Put shield and mass in a non colliding positions outside the screen
+2. Pass the values to test collision
+3. Check that False is returned
+4. Repeat from step 1 until all positions are exhausted
+
+
+Test 3:No Collision occurs (outside screen and colliding conditions) Test [NotRun]
+Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
+1. Put shield and mass in a colliding conditions outside the screen
+2. Pass the values to test collision
+3. Check that False is returned
+4. Repeat from step 1 until all positions are exhausted
+
+Test 4: Collision occurs Test [NotRun]
+Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
+1. Put shield and mass in a colliding conditions inside the screen
+2. Pass the values to test collision
+3. Check that True is returned
+4. Repeat from step 1 until all positions are exhausted
