@@ -15,19 +15,19 @@ Inputs: Mass Position(X,Y), Mass Velocity(X,Y) Output: False if terminated. True
 
 Point 2: Shield Movement Functionality
 
-Test 1: Out of Bounds Test X axis-1 [NotRun]
+Test 1: Out of Bounds Test X axis-1 [Passed]
 Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
 True, Shield Velocity, Shield Position otherwise.
 1. Pass shield Postion in a region X < 3 (whatever the shield size will be set)
 2. Ensure that the simulation terminates immediately with False return values
 
-Test 2: Out of Bounds Test X axis-2 [NotRun]
+Test 2: Out of Bounds Test X axis-2 [Passed]
 Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
 True, Shield Velocity, Shield Position otherwise.
 1. Place shield position in a region X > 127
 2. Ensure that the simulation terminates immediately with False return value
 
-Test 3: Constant Velocity Test [NotRun]
+Test 3: Constant Velocity Test [Failed]
 Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
 True, Shield Velocity, Shield Position otherwise.
 1. Place shield Position at 0 
@@ -37,7 +37,7 @@ True, Shield Velocity, Shield Position otherwise.
 5. Check temp matches the count variable
 6. Go to step 1 and select next value until all values are tested
 
-Test 4: Constant Acceleration Test [NotRun]
+Test 4: Constant Acceleration Test [Failed]
 Inputs: Shield Position, Shield Velocity, Shield Acceleration Output: False if terminated.
 True, Shield Velocity, Shield Position otherwise.
 1. Place shield Position at 0. Select Acceleration between 1 and screen distance.
@@ -49,7 +49,7 @@ True, Shield Velocity, Shield Position otherwise.
 
 Collision Test
 
-Test 1:No Collision occurs (Within screen)Test [NotRun]
+Test 1:No Collision occurs (Within screen)Test [Failed]
 Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
 1. Put shield and mass in a non colliding positions within the screen
 2. Pass the values to test collision
@@ -57,7 +57,7 @@ Inputs: Shield Position, Mass position Output: False if no collision. True if co
 4. Repeat from step 1 until all positions are exhausted
 
 
-Test 2:No Collision occurs (outside screen and not colliding conditions) Test [NotRun]
+Test 2:No Collision occurs (outside screen and not colliding conditions) Test [Failed]
 Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
 1. Put shield and mass in a non colliding positions outside the screen
 2. Pass the values to test collision
@@ -65,14 +65,14 @@ Inputs: Shield Position, Mass position Output: False if no collision. True if co
 4. Repeat from step 1 until all positions are exhausted
 
 
-Test 3:No Collision occurs (outside screen and colliding conditions) Test [NotRun]
+Test 3:No Collision occurs (outside screen and colliding conditions) Test [Failed]
 Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
 1. Put shield and mass in a colliding conditions outside the screen
 2. Pass the values to test collision
 3. Check that False is returned
 4. Repeat from step 1 until all positions are exhausted
 
-Test 4: Collision occurs Test [NotRun]
+Test 4: Collision occurs Test [Failed]
 Inputs: Shield Position, Mass position Output: False if no collision. True if collision occurs.
 1. Put shield and mass in a colliding conditions inside the screen
 2. Pass the values to test collision
