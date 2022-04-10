@@ -1,4 +1,3 @@
-This week I completed writing my Unit tests and wrote functionality for mass stepping in physics engine.
+This week I wrote the functional tests
 
-To check test results, debug and pause after running to reach the forever running while loop in tests.
-Look at the flag.
+I also improved the physics model to successfully run some of the unit tests.
