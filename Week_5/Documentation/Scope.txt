@@ -1,0 +1,15 @@
+Not Yet Complete:
+
+Physics Model					0.5 Hours
+Object Data Structure				1 Hours
+Button ISR					1 Hours
+Configuration Data/ Initialization Code		2 Hours
+Rendering Engine Task				1 Hours
+
+Completed:
+Wrote functional tests				0.5 Hrs
+
+Physics Model					2 Hr
+Fixed the physics model to successfully deliver a large part of the unit tests.
+
+

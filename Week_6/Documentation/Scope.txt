@@ -1,0 +1,16 @@
+Not Yet Complete:
+
+Physics Model					0.5 Hours
+Object Data Structure				1 Hours
+Button ISR					1 Hours
+Configuration Data/ Initialization Code		2 Hours
+
+Completed:
+
+Rendering Engine Task				1 Hour
+Wrote the rendering dependent on LCD and Physics.
+
+Planning Data Structures and LCD learning 	1 Hour
+Unplanned planning. Had to realize how to share data across tasks and learn LCD.
+
+

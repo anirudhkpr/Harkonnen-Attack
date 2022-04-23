@@ -1,0 +1,3 @@
+This week I wrote the functional tests
+
+I also improved the physics model to successfully run some of the unit tests.
