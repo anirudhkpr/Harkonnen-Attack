@@ -1,48 +1,48 @@
-Test 1: Check LEDs [NotRun]
-1. Press button 0
-2. Check LED 0 stays lit for the duration of the boost
-3. Press button 1
-4. Check LED 1 stays lit for the duration of the laser
+Test 1: Check LEDs [Partially Passed]
+1. Check LED1 is off unless capsense is used
+2. Press capsense
+3. Observe LED1 active force
+4. Check LED0 indicates needed force
 
-Test 2: Game over functionality	[NotRun]
+Test 2: Game over functionality	[P]
 1. Drop the mass
 2. Don't move the shield
 3. Let the mass fall through and check if game over state is reached
 
-Test 3: Check mass screen collision [NotRun]
+Test 3: Check mass screen collision [P]
 1. Drop the mass with a sideways velocity
 2. Let the mass collide with the screen
 3. Observe that the mass has an elastic collision with the screen boundary
 4. Repeat for other side
 
-Test 4: Check glitched capsense input [NotRun]
+Test 4: Check glitched capsense input [P]
 1. Press two pads of the capsense module
 2. Observe that the shield does not move
 3. Check for all pad combinations
 
-Test 6: Check constant velocity of shield [NotRun]
+Test 6: Check constant velocity of shield [P]
 1. Press one pad of the shield instantaneously
 2. Observe that the shield keeps moving after the input is complete
 3. Repeat on other side
 
-Test 7: Check acceleration of shield[NotRun]
+Test 7: Check acceleration of shield[P]
 1. Press and hold one pad of the shield
 2. Observe the shield keeps moving but getting faster than constant velocity case
 3. Repeat on other side
 
-Test 8: Check shield screen collision [NotRun]
+Test 8: Check shield screen collision [P]
 1. Press and hold one pad of the shield
 2. Let the shield reach the edge of the screen
 3. Observe shield stays in place at the edge until accelerated in the other direction'
 4. Repeat for other side
 
-Test 9: Check shield mass collision [NotRun]
+Test 9: Check shield mass collision [P]
 1. Bring the shield to a position such that the mass can collide with the shield
 2. Observe mass changing direction
 3. Bring the shield to a position such that the mass collides but boost it
 4. Observe that the mass moves faster than before with a change in direction
 
-Test 10: Laser test [NotRun]
+Test 10: Laser test [P]
 1. Bring the shield in a postion such that it can intercept the mass in X axis
-2. Use button 1 to activate one time laser
+2. Use button 0 to activate one time laser
 3. Observe the destruction of mass

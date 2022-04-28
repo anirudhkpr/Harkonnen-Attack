@@ -1,3 +1,3 @@
-This week I added functionality for allowing LCD to display variables from the physics.c implementation.
-This will help in debugging. Unfortunately, my capstone expo had me unable to do much more. I will implement more
-over the weekend.
+I completed the functionality required to run the game. This includes rendering, physics and game mechanics.
+The game can run using configuration format given by the professor although some values are changed for better
+operation.
